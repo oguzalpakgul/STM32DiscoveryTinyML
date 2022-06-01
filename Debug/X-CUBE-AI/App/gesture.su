@@ -1,0 +1,13 @@
+gesture.c:359:9:gesture_configure_activations	24	static
+gesture.c:389:9:gesture_configure_weights	24	static
+gesture.c:428:9:ai_gesture_get_info	144	static
+gesture.c:474:9:ai_gesture_get_report	144	static
+gesture.c:520:10:ai_gesture_get_error	16	static
+gesture.c:526:10:ai_gesture_create	24	static
+gesture.c:536:10:ai_gesture_create_and_init	96	static
+gesture.c:570:12:ai_gesture_inputs_get	16	static
+gesture.c:580:12:ai_gesture_outputs_get	16	static
+gesture.c:590:11:ai_gesture_destroy	16	static
+gesture.c:596:9:ai_gesture_init	24	static
+gesture.c:613:8:ai_gesture_run	24	static
+gesture.c:620:8:ai_gesture_forward	16	static
