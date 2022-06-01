@@ -5940,38 +5940,38 @@ LOAD c:/st/stm32cubeide_1.8.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.exte
  .debug_line    0x000000000000aeeb      0xb6a ./X-CUBE-AI/App/gesture.o
  .debug_line    0x000000000000ba55      0x679 ./X-CUBE-AI/App/gesture_data.o
 
-.debug_str      0x0000000000000000    0xcfaa6
+.debug_str      0x0000000000000000    0xcfaa2
  .debug_str     0x0000000000000000    0xc18dd ./Core/Src/MY_LIS3DSH.o
                                       0xc1c6d (size before relaxing)
- .debug_str     0x00000000000c18dd     0x490a ./Core/Src/main.o
-                                      0xc643f (size before relaxing)
- .debug_str     0x00000000000c61e7       0x9f ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_str     0x00000000000c18dd     0x4906 ./Core/Src/main.o
+                                      0xc643b (size before relaxing)
+ .debug_str     0x00000000000c61e3       0x9f ./Core/Src/stm32f4xx_hal_msp.o
                                       0xbe5af (size before relaxing)
- .debug_str     0x00000000000c6286       0xce ./Core/Src/stm32f4xx_it.o
+ .debug_str     0x00000000000c6282       0xce ./Core/Src/stm32f4xx_it.o
                                       0xbde2b (size before relaxing)
- .debug_str     0x00000000000c6354      0x4e9 ./Core/Src/sysmem.o
+ .debug_str     0x00000000000c6350      0x4e9 ./Core/Src/sysmem.o
                                        0x629e (size before relaxing)
- .debug_str     0x00000000000c683d       0xaf ./Core/Src/system_stm32f4xx.o
+ .debug_str     0x00000000000c6839       0xaf ./Core/Src/system_stm32f4xx.o
                                       0xbdebb (size before relaxing)
- .debug_str     0x00000000000c68ec       0x36 ./Core/Startup/startup_stm32f407vgtx.o
+ .debug_str     0x00000000000c68e8       0x36 ./Core/Startup/startup_stm32f407vgtx.o
                                          0x6f (size before relaxing)
- .debug_str     0x00000000000c6922      0x583 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_str     0x00000000000c691e      0x583 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
                                       0xbe99d (size before relaxing)
- .debug_str     0x00000000000c6ea5      0x394 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_str     0x00000000000c6ea1      0x394 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
                                       0xbe78c (size before relaxing)
- .debug_str     0x00000000000c7239       0xaa ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.o
+ .debug_str     0x00000000000c7235       0xaa ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.o
                                       0xbdf15 (size before relaxing)
- .debug_str     0x00000000000c72e3      0x13a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_str     0x00000000000c72df      0x13a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
                                       0xbe062 (size before relaxing)
- .debug_str     0x00000000000c741d      0x259 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_str     0x00000000000c7419      0x259 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
                                       0xbe2bd (size before relaxing)
- .debug_str     0x00000000000c7676      0x574 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
+ .debug_str     0x00000000000c7672      0x574 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.o
                                       0xbe75f (size before relaxing)
- .debug_str     0x00000000000c7bea      0x5fb ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
+ .debug_str     0x00000000000c7be6      0x5fb ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
                                       0xbe843 (size before relaxing)
- .debug_str     0x00000000000c81e5     0x77a3 ./X-CUBE-AI/App/gesture.o
+ .debug_str     0x00000000000c81e1     0x77a3 ./X-CUBE-AI/App/gesture.o
                                       0x12848 (size before relaxing)
- .debug_str     0x00000000000cf988      0x11e ./X-CUBE-AI/App/gesture_data.o
+ .debug_str     0x00000000000cf984      0x11e ./X-CUBE-AI/App/gesture_data.o
                                        0xe845 (size before relaxing)
 
 .comment        0x0000000000000000       0xce

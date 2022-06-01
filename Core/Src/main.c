@@ -215,8 +215,8 @@ int main(void)
 
 	//ai_input[0].n_batches =1; kodda buda vardı ama böyle bir değiken yok
 
-	ai_input[0].data =AI_HANDLE_PTR(in_data);
-	ai_output[0].data= AI_HANDLE_PTR(out_data);
+	//ai_input[0].data =AI_HANDLE_PTR(in_data);
+	//ai_output[0].data= AI_HANDLE_PTR(out_data);
 
 
 

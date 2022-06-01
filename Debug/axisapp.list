@@ -41,15 +41,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  18 .debug_line   0000c0ce  00000000  00000000  000668a6  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_str    000cfaa6  00000000  00000000  00072974  2**0
+ 19 .debug_str    000cfaa2  00000000  00000000  00072974  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .comment      000000ce  00000000  00000000  0014241a  2**0
+ 20 .comment      000000ce  00000000  00000000  00142416  2**0
                   CONTENTS, READONLY
- 21 .debug_frame  00003264  00000000  00000000  001424e8  2**2
+ 21 .debug_frame  00003264  00000000  00000000  001424e4  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 22 .stab         0000009c  00000000  00000000  0014574c  2**2
+ 22 .stab         0000009c  00000000  00000000  00145748  2**2
                   CONTENTS, READONLY, DEBUGGING
- 23 .stabstr      0000014d  00000000  00000000  001457e8  2**0
+ 23 .stabstr      0000014d  00000000  00000000  001457e4  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -2012,8 +2012,8 @@ int main(void)
  80014da:	f7ff fddd 	bl	8001098 <LIS3DSH_Z_calibrate>
 
 	float activations[AI_GESTURE_DATA_ACTIVATIONS_SIZE];
-	float inputData[AI_GESTURE_IN_1_SIZE_BYTES];
-	float outputData[AI_GESTURE_OUT_1_SIZE_BYTES];
+	float in_data[AI_GESTURE_IN_1_SIZE_BYTES];
+	float out_data[AI_GESTURE_OUT_1_SIZE_BYTES];
 
 	ai_handle network = AI_HANDLE_NULL;
  80014de:	f507 7384 	add.w	r3, r7, #264	; 0x108
