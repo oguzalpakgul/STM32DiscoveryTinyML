@@ -2,7 +2,7 @@
   ******************************************************************************
   * @file    gesture.c
   * @author  AST Embedded Analytics Research Platform
-  * @date    Tue May 24 23:48:56 2022
+  * @date    Tue Jun  7 01:05:28 2022
   * @brief   AI Tool Automatic Code Generator for Embedded NN computing
   ******************************************************************************
   * @attention
@@ -43,7 +43,7 @@
 #endif
 
 #undef AI_TOOLS_DATE_TIME
-#define AI_TOOLS_DATE_TIME   "Tue May 24 23:48:56 2022"
+#define AI_TOOLS_DATE_TIME   "Tue Jun  7 01:05:28 2022"
 
 #undef AI_TOOLS_COMPILE_TIME
 #define AI_TOOLS_COMPILE_TIME    __DATE__ " " __TIME__
