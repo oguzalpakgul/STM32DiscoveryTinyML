@@ -130,9 +130,9 @@ float out_data0;
 
 
 
-float activations[AI_GESTURE_DATA_ACTIVATIONS_SIZE];
-float in_data[AI_GESTURE_IN_1_SIZE_BYTES];
-float out_data[AI_GESTURE_OUT_1_SIZE_BYTES];
+ai_u8 activations[AI_GESTURE_DATA_ACTIVATIONS_SIZE];
+float in_data[AI_GESTURE_IN_1_SIZE];
+float out_data[AI_GESTURE_OUT_1_SIZE];
 
 ai_buffer *ai_input;
 ai_buffer *ai_output;
@@ -278,7 +278,7 @@ int firstInData = 0;
 			HAL_UART_Transmit(&huart3,text, 23, 10);
 
 
-			if(firstInData< AI_GESTURE_IN_1_SIZE_BYTES)
+			if(firstInData< AI_GESTURE_IN_1_SIZE)
 			{
 				in_data[firstInData] = (kal_a_x+10000)/20000;
 				in_data[firstInData+1] = (kal_a_y+10000)/20000;
@@ -288,16 +288,16 @@ int firstInData = 0;
 
 			else{
 
-				for(int i=0; i<AI_GESTURE_IN_1_SIZE_BYTES-3;i++)
+				for(int i=0; i<AI_GESTURE_IN_1_SIZE-3;i++)
 				{
 
 					in_data[i] = in_data[i+3];
 
 				}
 
-			in_data[AI_GESTURE_IN_1_SIZE_BYTES-3] = (kal_a_x+10000)/20000;
-			in_data[AI_GESTURE_IN_1_SIZE_BYTES-2] = (kal_a_y+10000)/20000;
-			in_data[AI_GESTURE_IN_1_SIZE_BYTES-1] = (kal_a_z+10000)/20000;
+			in_data[AI_GESTURE_IN_1_SIZE-3] = (kal_a_x+10000)/20000;
+			in_data[AI_GESTURE_IN_1_SIZE-2] = (kal_a_y+10000)/20000;
+			in_data[AI_GESTURE_IN_1_SIZE-1] = (kal_a_z+10000)/20000;
 
 
 
@@ -377,12 +377,11 @@ void SystemClock_Config(void)
   /** Initializes the RCC Oscillators according to the specified parameters
   * in the RCC_OscInitTypeDef structure.
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
-  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
-  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.HSEState = RCC_HSE_ON;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
-  RCC_OscInitStruct.PLL.PLLM = 8;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
+  RCC_OscInitStruct.PLL.PLLM = 4;
   RCC_OscInitStruct.PLL.PLLN = 168;
   RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
   RCC_OscInitStruct.PLL.PLLQ = 7;

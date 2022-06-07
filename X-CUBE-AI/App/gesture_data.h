@@ -3,7 +3,7 @@
   ******************************************************************************
   * @file    gesture_data.h
   * @author  AST Embedded Analytics Research Platform
-  * @date    Tue Jun  7 01:05:28 2022
+  * @date    Tue Jun  7 22:06:55 2022
   * @brief   AI Tool Automatic Code Generator for Embedded NN computing
   ******************************************************************************
   * Copyright (c) 2017 STMicroelectronics.
@@ -26,18 +26,18 @@
 
 
 #define AI_GESTURE_DATA_ACTIVATIONS_SIZES \
-  { 260, }
-#define AI_GESTURE_DATA_ACTIVATIONS_SIZE     (260)
+  { 360, }
+#define AI_GESTURE_DATA_ACTIVATIONS_SIZE     (360)
 #define AI_GESTURE_DATA_ACTIVATIONS_COUNT    (1)
-#define AI_GESTURE_DATA_ACTIVATION_1_SIZE    (260)
+#define AI_GESTURE_DATA_ACTIVATION_1_SIZE    (360)
 
 
 
 #define AI_GESTURE_DATA_WEIGHTS_SIZES \
-  { 63452, }
-#define AI_GESTURE_DATA_WEIGHTS_SIZE         (63452)
+  { 27552, }
+#define AI_GESTURE_DATA_WEIGHTS_SIZE         (27552)
 #define AI_GESTURE_DATA_WEIGHTS_COUNT        (1)
-#define AI_GESTURE_DATA_WEIGHT_1_SIZE        (63452)
+#define AI_GESTURE_DATA_WEIGHT_1_SIZE        (27552)
 
 
 

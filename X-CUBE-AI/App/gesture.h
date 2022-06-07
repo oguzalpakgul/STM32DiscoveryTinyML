@@ -4,7 +4,7 @@
   ******************************************************************************
   * @file    gesture.h
   * @author  AST Embedded Analytics Research Platform
-  * @date    Tue Jun  7 01:05:28 2022
+  * @date    Tue Jun  7 22:06:55 2022
   * @brief   AI Tool Automatic Code Generator for Embedded NN computing
   ******************************************************************************
   * @attention
@@ -47,9 +47,9 @@ AI_DEPRECATED
 #define AI_GESTURE_IN_SIZE_BYTES { \
   AI_GESTURE_IN_1_SIZE_BYTES, \
 }
-#define AI_GESTURE_IN_1_CHANNEL     (300)
-#define AI_GESTURE_IN_1_SIZE        (300)
-#define AI_GESTURE_IN_1_SIZE_BYTES  (1200)
+#define AI_GESTURE_IN_1_CHANNEL     (75)
+#define AI_GESTURE_IN_1_SIZE        (75)
+#define AI_GESTURE_IN_1_SIZE_BYTES  (300)
 
 /******************************************************************************/
 #define AI_GESTURE_OUT_NUM       (1)

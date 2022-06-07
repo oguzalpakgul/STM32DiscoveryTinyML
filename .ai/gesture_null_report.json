@@ -1,7 +1,7 @@
 {
     "_allocate_inputs": 0,
     "_allocate_outputs": 0,
-    "cli_parameters": "generate --name gesture -m C:/Users/DELL/Desktop/YLproje/gesture_model.tflite --type tflite --compression 1 --verbosity 1 --workspace C:\\Users\\DELL\\AppData\\Local\\Temp\\mxAI_workspace1422920437265004619416377551549390 --output C:\\Users\\DELL\\.stm32cubemx\\gesture_output",
+    "cli_parameters": "generate --name gesture -m C:/Users/DELL/Desktop/YLproje/gesture_model.tflite --type tflite --compression 1 --verbosity 1 --workspace C:\\Users\\DELL\\AppData\\Local\\Temp\\mxAI_workspace1436952833253006445677232278123971 --output C:\\Users\\DELL\\.stm32cubemx\\gesture_output",
     "cli_version": {
         "major": 1,
         "micro": 0,
@@ -12,7 +12,7 @@
         "factor": null,
         "layers": {}
     },
-    "date_time": "Tue Jun  7 01:05:28 2022",
+    "date_time": "Tue Jun  7 01:28:33 2022",
     "error": 0,
     "error_str": [],
     "exec_cmd": "generate",

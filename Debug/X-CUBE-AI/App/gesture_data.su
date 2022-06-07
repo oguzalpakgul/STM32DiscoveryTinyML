@@ -1,4 +1,4 @@
-gesture_data.c:2032:11:ai_gesture_data_activations_buffer_get	72	static
-gesture_data.c:2050:11:ai_gesture_data_weights_buffer_get	72	static
-gesture_data.c:2068:11:ai_gesture_data_weights_get	4	static
-gesture_data.c:2087:9:ai_gesture_data_params_get	32	static
+gesture_data.c:910:11:ai_gesture_data_activations_buffer_get	72	static
+gesture_data.c:928:11:ai_gesture_data_weights_buffer_get	72	static
+gesture_data.c:946:11:ai_gesture_data_weights_get	4	static
+gesture_data.c:965:9:ai_gesture_data_params_get	32	static
